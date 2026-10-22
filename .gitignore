@@ -1,0 +1,71 @@
+# Python virtual environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and credentials
+secrets/
+.env
+.env.*
+!.env.example
+*credentials*.json
+token.json
+oauth*.json
+client_secret*.json
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+
+# Temporary audio files
+*.wav
+*.aiff
+
+# Local backups and debug archives
+backups/
+backup_*/
+*.backup
+*.bak
+*.before_*
+*.backup_*
+nexa_debug_files.zip
+
+# OS and editor files
+.DS_Store
+.vscode/
+
+# Additional local recovery files
+*.save
+*.broken_copy*
+*.current_backup
+*.task
+
+# Exclude Python cache and macOS metadata everywhere
+**/__pycache__/
+**/.DS_Store
+
+# Exclude historical and experimental backup copies
+*.backup*
+*.before_*
+*.broken_copy*
+*.current_backup
+*.save
+*.bak
+
+# Exclude experimental model files and local archives
+hand_landmarker.task
+*.zip
+
+# Exclude phase-specific backup copies
+*_backup.py
+*phase*_backup.py
+*.current_backup
+
+# Exclude intermediate avatar image versions
+*_before_alignment.png
+
+hand_tracking_test.py
