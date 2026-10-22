@@ -12,6 +12,21 @@ The goal is to build a personal AI companion that supports natural conversation,
 
 **Demo video:** [Watch the NEXA demo](media/nexa-demo.MOV)
 
+
+
+## 🎥 NEXA Project — Video Demonstrations
+
+Watch the development, features, and working demonstrations of NEXA, my personal AI companion project.
+
+▶️ https://www.youtube.com/playlist?list=PLJSjlRBF5OiU
+
+The playlist documents the project's development journey, implementation, testing, and key features.
+
+**Project:** NEXA — AI Personal Companion  
+**Repository:** Source code and project documentation  
+**Video demonstrations:** YouTube playlist
+
+
 ## Features
 
 - Local AI experimentation using Ollama and compatible language models.
